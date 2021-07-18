@@ -19,6 +19,9 @@ Route::get('/zohid', function () {
 Route::get('/abbos', function(){
     return 'Mirobid Hello World';
 });
+Route::get('/mmm', function () {
+    return view('Abdullayev');
+});
 
 
 
